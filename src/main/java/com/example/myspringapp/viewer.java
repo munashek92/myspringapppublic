@@ -6,6 +6,10 @@ public class viewer {
 
     public viewer(){
     }
+    
+    public viewer(String word){
+    System.out.println("This is: "+word);
+    }
 
     public String getName(){
         return this.name;
